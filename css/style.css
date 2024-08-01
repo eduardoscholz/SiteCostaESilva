@@ -1,0 +1,216 @@
+/* *{border: 1px solid red;} */
+body{
+    background-color: #0d0c1d;
+    color: #f1dac4;
+    font-family: system-ui, helvetica, arial;
+ }
+header{
+    background-color: #161b33;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -7px;
+    margin-right: -7px;
+ }
+.imgheader{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 250px;
+ }
+a{
+    color: #f1dac4;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+ }
+a:link { 
+    text-decoration: none; 
+ } 
+a:visited { 
+    text-decoration: none; 
+ } 
+a:hover{
+    color: #a69cac;
+    background-color: #161b33;
+    text-decoration: none;
+ }
+a:active { 
+    text-decoration: none; 
+ }
+nav{
+    margin-top: 0%;
+    margin-bottom: 0%;
+ }
+ul{
+    text-align: center;
+ }
+.linav{
+    display: inline;
+    font-size: 25px;
+    margin: 5%;
+ }
+.intro{
+    text-align: center;
+    background-color: #161b33;
+    padding: 1%;
+ }
+.gridadv{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    float: left;
+    margin-right: 38px;
+ }
+.advogados{
+    background-color: #a69cac;
+    color: #f1dac4;
+    padding: 20px;
+    border-radius: 20px;
+ }
+.imgadv{
+    width: 50%;
+    max-width: 300px;
+    border-radius: 20px;
+    border: 5px solid #f1dac4;
+    object-fit: cover;
+    float: left;
+}
+.textadv{
+   display: grid;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    margin-left: 20px;
+    font-size: 35px;
+ }
+p{
+    margin-left: 20px;
+    font-size: 20px;
+ }
+footer{
+    background-color: #161b33;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ }
+/* pagina contato */
+.contatobody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #101026;
+    font-family: system-ui, helvetica, arial;
+    background-image:url('background.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.contatosec{
+    margin-top: 100px;
+    margin-bottom: 220px;
+}
+.contatosec h2{
+    color: #f5f5f5;
+    font-size: 40px;
+    text-align: center;
+}
+.contatosec form{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    width: 500px;
+}
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+button {
+    padding: 1.3em 3em;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #f1dac4;
+    background-color: #161b33;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #474973;
+    box-shadow: 0px 15px 20px #47497367;
+    color: #f1dac4;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+    textarea {
+    font-family: System-ui;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+}
+    textarea:focus {
+    border-color: rgb(116, 229, 157);
+    box-shadow: 0 0 0 0.2rem rgba(46, 229, 157, 0.25);
+}
+.input-style {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    height:6px;
+  }
+  
+  .input-style:focus {
+    border-color: rgb(116, 229, 157);
+    box-shadow: 0 0 0 0.2rem rgba(46, 229, 157, 0.25);
+  }
+/* pagina aviso */
+.imgaviso{
+    width: 100%;
+    height: 100%;
+}

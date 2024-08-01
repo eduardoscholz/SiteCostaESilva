@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Costa & Silva Advocacia</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img class="imgheader" src="../images/header.png">
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li class="linav"><a href="../html/home.html">Home</a></li>
+                <li class="linav"><a href="../html/contato.html">Contato</a></li>
+                <li class="linav"><a href="../html/aviso.html">Nosso podcast</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <h2>Nos contate pelo formulário abaixo</h2>
+            <p>Entraremos em contato o quanto antes</p>
+        </div>
+    </section>
+    <div class="contatobody">
+        <div class="contatosec">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input class="input-style" type="text" name="name" placeholder="digite seu nome" autocomplete="off" required><br>
+                <label>E-mail</label>
+                <input class="input-style" type="email" name="email" placeholder="digite seu email" autocomplete="off" required><br>
+                <label>Celular para contato</label>
+                <input type="number" class="input-style" name="celular" placeholder="(xx) 9xxxx-xxxx" autocomplete="off" required><br>
+                <label>Nos descreva aqui qual seu problema</label><br>
+                <textarea name="text" cols="30" rows="10" placeholder="digite aqui" required></textarea>
+    
+                <button type="submit">Enviar</button>
+    
+                <input type="hidden" name="accessKey" value="61bf08e1-c932-4bde-9c09-806de7807377">
+            </form>
+        </section>
+    </div>
+</body>
+<footer>
+    Copyright EMPTA ltda.
+</footer>
+</html>
